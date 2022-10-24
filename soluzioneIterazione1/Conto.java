@@ -14,6 +14,6 @@ public class Conto{
     }
 
     public String toString(){
-        return "Conto " + numeroConto + " intestato a cliente " + cliente.getNomeCliente() + " con saldo " + saldo + " £";
+        return "Conto " + numeroConto + " intestato a cliente " + " con saldo " + saldo + " £";
     }
 }
