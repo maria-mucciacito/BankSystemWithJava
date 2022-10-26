@@ -38,9 +38,13 @@ public class Main {
         operations.add(operation1);
         account1.setOperations(operations);
         account1.executeOperation(operation1);
+        AccountSpecial cs1 = new AccountSpecial(5, 30);
+        cs1.setOperations(operations);
+        cs1.executeOperation(operation1);
         
 
         // OUTPUT
+        System.out.println(cs1);
         System.out.println(account1);
         System.out.println(bank1);
         System.out.println(customers);
